@@ -18,6 +18,5 @@ jobs:
         uses: action/setup-node@v1
         with:
           node-version: ${{matrix.node-version}}
-
       - run: npm install
       - run: npm test
